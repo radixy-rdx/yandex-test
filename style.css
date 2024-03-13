@@ -1,0 +1,163 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin-top: 10px;
+    width: 100%;
+    /* background: url(source/image/1920.png) no-repeat; */
+    background-size: 100%;
+    
+}
+
+.logo {
+    margin-left: 345px;
+    margin-top: 25px;
+    
+}
+
+.top-context {
+    margin-left: 342px;
+    margin-top: 75px;
+}
+
+.rt {
+    margin-left: 90px;
+    margin-top: -10px;
+}
+
+.rt1 {
+    margin-left: 30px;
+}
+
+.top-context>h1 {
+    text-transform: uppercase;
+    font-family: Merriweather; 
+    font-size: 60px; 
+    font-weight: 400; 
+    line-height: 30px; 
+    letter-spacing: 0px;
+}
+
+.mid-context {
+    text-align: center;
+    margin-left: -700px;
+}
+
+.mid-context>span {
+    font-family: Golos Text;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0px;
+}
+
+.btn-group {
+    display: flex;
+    margin-left: 320px;
+    margin-top: 40px;
+    
+}
+
+.btn {
+    margin-left: 20px;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    width: 255px;
+    height: 60px;
+    border: 3px solid black;
+    border-radius: 45px;
+    font-family: Golos Text;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.bg-images {
+    position: absolute;
+    z-index: -999;
+    display: flex;
+}
+.city {
+    margin-top: -300px;
+    margin-left: 150px;
+}
+
+.chess {
+    position: absolute;
+    margin-top: -410px;
+    margin-left: -450px !important;
+    z-index: -9991;
+}
+
+.ellipse {
+    position: absolute;
+    margin-top: -575px;
+    margin-left: -830px !important;
+    z-index: -9999;
+}
+
+.chess2 {
+    position: absolute;
+    margin-top: -300px;
+    margin-left: -780px !important;
+    z-index: -9991;
+}
+
+.chess3 {
+    position: absolute;
+    margin-top: -90px;
+    margin-left: -665px !important;
+    z-index: 1;
+}
+
+.chess4 {
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -270px !important;
+    z-index: 1;
+}
+
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #F54932;
+    height: 40px;
+    margin-top: 130px;
+    text-align: center;
+    align-items: center;
+    top: 50%;
+    padding-top: 20px;
+  }
+  
+  .marquee {
+    white-space: nowrap;
+    animation: marqueeAnimation 15s linear infinite;
+
+    font-family: Merriweather;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: white;
+
+
+  }
+  
+  @keyframes marqueeAnimation {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .marquee>span {
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+
+  }
